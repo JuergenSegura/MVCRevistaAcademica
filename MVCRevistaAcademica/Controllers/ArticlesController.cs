@@ -10,8 +10,10 @@ using MVCRevistaAcademica.Models;
 
 namespace MVCRevistaAcademica.Controllers
 {
+    [Authorize]
     public class ArticlesController : Controller
     {
+
         private DbMagazine db = new DbMagazine();
 
         // GET: Articles
