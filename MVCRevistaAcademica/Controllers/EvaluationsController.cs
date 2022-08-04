@@ -10,6 +10,7 @@ using MVCRevistaAcademica.Models;
 
 namespace MVCRevistaAcademica.Controllers
 {
+    [Authorize]
     public class EvaluationsController : Controller
     {
         private DbMagazine db = new DbMagazine();

@@ -10,9 +10,11 @@ using MVCRevistaAcademica.Models;
 
 namespace MVCRevistaAcademica.Controllers
 {
+    [Authorize]
     public class PeopleController : Controller
     {
         private DbMagazine db = new DbMagazine();
+
 
         // GET: People
         public ActionResult Index()
