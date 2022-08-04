@@ -14,6 +14,7 @@ namespace MVCRevistaAcademica.Controllers
     {
         private DbMagazine db = new DbMagazine();
 
+
         // GET: People
         public ActionResult Index()
         {
