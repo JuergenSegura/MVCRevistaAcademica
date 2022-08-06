@@ -9,7 +9,7 @@ namespace MVCRevistaAcademica.Models
     public class ArticleType
     {
         [Key]
-        public int ArticleTypeId { get; set; }
+        public int IdArticleType { get; set; }
         public string Type { get; set; }
 
     }

@@ -9,7 +9,7 @@ namespace MVCRevistaAcademica.Models
     public class Residence
     {
         [Key]
-        public int ResidenceId { get; set; }
+        public int IdResidence { get; set; }
         public string Country { get; set; }
         public string Province { get; set; }
         public string Canton { get; set; }

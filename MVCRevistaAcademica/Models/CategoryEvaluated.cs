@@ -9,7 +9,7 @@ namespace MVCRevistaAcademica.Models
     public class CategoryEvaluated
     {
         [Key]
-        public int Id { get; set; }
+        public int IdCategory { get; set; }
         public string Category { get; set; }
     }
 }

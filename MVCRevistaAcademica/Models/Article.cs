@@ -14,11 +14,13 @@ namespace MVCRevistaAcademica.Models
         public int Volumen { get; set; }
         public int Number { get; set; }
         public int Year { get; set; }
+
+        [ForeignKey("IdPerson")]
         public Person Person { get; set; }
         public DateTime ReceptionDate { get; set; }
         public string DOI { get; set; }
 
-        [ForeignKey("ArticleTypeId")]
+        [ForeignKey("IdArticleType")]
         public ArticleType ArticleType { get; set; }
     }
 }
